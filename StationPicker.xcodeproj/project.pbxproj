@@ -13,6 +13,8 @@
 		627F722625C7768F00B9F84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627F722425C7768F00B9F84B /* Main.storyboard */; };
 		627F722825C7768F00B9F84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627F722725C7768F00B9F84B /* Assets.xcassets */; };
 		627F722B25C7768F00B9F84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627F722925C7768F00B9F84B /* LaunchScreen.storyboard */; };
+		627F723425C7770C00B9F84B /* StationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F723325C7770C00B9F84B /* StationPickerViewController.swift */; };
+		627F723725C7797400B9F84B /* StadionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F723625C7797400B9F84B /* StadionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		627F722725C7768F00B9F84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		627F722A25C7768F00B9F84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		627F722C25C7768F00B9F84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627F723325C7770C00B9F84B /* StationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPickerViewController.swift; sourceTree = "<group>"; };
+		627F723625C7797400B9F84B /* StadionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				627F722025C7768F00B9F84B /* SceneDelegate.swift */,
 				627F722225C7768F00B9F84B /* ViewController.swift */,
 				627F722425C7768F00B9F84B /* Main.storyboard */,
+				627F723325C7770C00B9F84B /* StationPickerViewController.swift */,
+				627F723625C7797400B9F84B /* StadionData.swift */,
 				627F722725C7768F00B9F84B /* Assets.xcassets */,
 				627F722925C7768F00B9F84B /* LaunchScreen.storyboard */,
 				627F722C25C7768F00B9F84B /* Info.plist */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				627F722325C7768F00B9F84B /* ViewController.swift in Sources */,
+				627F723425C7770C00B9F84B /* StationPickerViewController.swift in Sources */,
+				627F723725C7797400B9F84B /* StadionData.swift in Sources */,
 				627F721F25C7768F00B9F84B /* AppDelegate.swift in Sources */,
 				627F722125C7768F00B9F84B /* SceneDelegate.swift in Sources */,
 			);
